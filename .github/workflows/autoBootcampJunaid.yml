@@ -21,7 +21,3 @@ jobs:
       run: npm install --global surge
     - name: Deploying using surge
       run: surge ./ bootcampjunaid.surge.sh --token $ {{ secrets.SURGE_TOKEN }} 
-     
-     
-      
-      
